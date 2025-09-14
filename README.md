@@ -1,6 +1,45 @@
-# API de Integração Pokémon
+# balneabilidade-fortaleza-api
 
-Este projeto demonstra a integração entre múltiplas APIs externas para criar um serviço que combina e enriquece dados sobre Pokémon. O sistema integra a PokéAPI (para obter informações detalhadas sobre Pokémon) com a API Fun Translations (para traduzir descrições de Pokémon para estilos como Shakespeare e Yoda).
+Este projeto visa desenvolver um sistema multi plataforma que centraliza e apresenta de forma acessível os dados de balneabilidade das praias de Fortaleza. Utilizando os boletins semanais da SEMACE, a solução permitirá que cidadãos e turistas consultem, de maneira simples e rápida, se um trecho de praia está próprio ou impróprio para banho. A plataforma pretende disponibilizar essas informações de forma visual, interativa e responsiva, contribuindo para decisões mais seguras e para a promoção da saúde pública.
+
+## Problema Abordado e Justificativa
+
+Atualmente, os boletins de balneabilidade da SEMACE (Superintendência Estadual do Meio Ambiente) são divulgados semanalmente, mas o acesso a essas informações pode ser disperso, dificultando para moradores e turistas verificarem rapidamente se um trecho de praia em Fortaleza é seguro para banho. O problema é a falta de uma plataforma centralizada e fácil de usar que apresente esses dados de forma clara, o que pode impactar a saúde e o bem-estar das pessoas.
+Este projeto busca resolver esse problema, gerando um impacto social positivo alinhado ao Objetivo de Desenvolvimento Sustentável (ODS) 11: Cidades e Comunidades Sustentáveis. Ao fornecer informações acessíveis sobre a qualidade da água das praias, o sistema contribui para tornar as áreas urbanas mais seguras e sustentáveis, promovendo o bem-estar da população.
+
+## Objetivos do Sistema
+
+O sistema foi concebido com os seguintes objetivos principais:
+Centralização de Informações: Coletar os boletins de balneabilidade, extrair seus dados e armazená-los de forma organizada.
+Acessibilidade e Transparência: Oferecer uma interface clara e responsiva, acessível em dispositivos móveis e desktops.
+Promoção de Saúde e Bem-Estar: Auxiliar cidadãos na tomada de decisão sobre o uso seguro das praias, reduzindo riscos de doenças causadas por contato com águas contaminadas.
+Visualização Intuitiva: Permitir buscas por praia, zona ou trecho, e exibir resultados com indicadores visuais (cores, status).
+
+## Escopo do Projeto
+
+O projeto abrange o planejamento completo de um sistema multiplataforma para centralizar e disponibilizar informações de balneabilidade das praias de Fortaleza. Nesta primeira etapa (N705), o foco está na documentação técnica e no desenho da solução, sem implementação de código.
+O escopo inclui:
+* Levantamento e Organização das Funcionalidades:
+  - Consulta de balneabilidade por praia, zona ou trecho.
+  - Classificação visual das praias como próprias ou impróprias para banho.
+* Definição da Arquitetura:
+  - Backend baseado em API RESTful para servir os dados de balneabilidade.
+  - Frontend web responsivo e design de interface mobile para acessibilidade.
+  - Banco de dados relacional para persistência dos dados.
+  - Serviço de coleta automatizada dos boletins da SEMACE.
+* Modelagem de Dados e APIs:
+  - Criação de diagrama ER ou de classes para o modelo de dados.
+  - Especificação dos endpoints da API, parâmetros de requisição e formatos de resposta.
+* Prototipação de Interfaces:
+  - Desenvolvimento de protótipos de interface para web e mobile.
+  - Validação de fluxos de usuário com base no Design Centrado no Usuário (UCD).
+* Planejamento da Implementação (Etapa 2 – N708):
+  - Cronograma detalhado para o desenvolvimento do backend, frontend, integração e testes.
+  -Estratégia de testes (unitários, integração, funcionais e de carga).
+Fora de escopo nesta etapa: implementação de código, hospedagem em produção e integração contínua. Esses itens serão tratados na disciplina N708.
+
+## 
+
 
 ## Tecnologias Utilizadas
 
