@@ -1,3 +1,5 @@
+
+
 # Diagramas da API de Integração Pokémon
 
 Este documento apresenta os diagramas que ilustram a arquitetura, o fluxo de dados e a interação entre as APIs no sistema de integração Pokémon.

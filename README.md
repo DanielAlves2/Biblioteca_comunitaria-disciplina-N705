@@ -35,7 +35,7 @@ O escopo inclui:
    - Validação de fluxos de usuário com base no Design Centrado no Usuário (UCD).
   * Planejamento da Implementação (Etapa 2 – N708):
    - Cronograma detalhado para o desenvolvimento do backend, frontend, integração e testes.
-   -Estratégia de testes (unitários, integração, funcionais e de carga).
+   - Estratégia de testes (unitários, integração, funcionais e de carga).
  Fora de escopo nesta etapa: implementação de código, hospedagem em produção e integração contínua. Esses itens serão tratados na disciplina N708.
 
 ## Visão Geral da Arquitetura
@@ -74,129 +74,15 @@ O escopo inclui:
    - Semana 7 – Integração e versão mobile: Será feita a integração entre frontend e backend, garantindo que os dados estejam fluindo corretamente. Caso viável, será iniciada a versão mobile utilizando os mesmos serviços do backend.
    - Semana 8 – Testes de carga e ajustes finais: Serão realizados testes de carga para avaliar a escalabilidade do sistema sob múltiplas requisições simultâneas. Por fim, serão feitos ajustes finais, a documentação será revisada e será preparado o material para entrega.
 A aplicação da Pirâmide de Testes garantirá maior qualidade no produto final, com maior número de testes de unidade (baixo custo e alta cobertura), seguido de testes de serviço (integração) e, no topo, testes de UI e de aceitação para validação em ambiente próximo ao real.
-Integrantes da Equipe e Seus Papéis
+
+## Integrantes da Equipe e Seus Papéis
+
 Ayala Rodrigues Freire: 2323803 - Analista de Requisitos/UX Designer
 Daniel Alves Fabricio: 2326208 - Responsável pela documentação da API
 Nome do Integrante 3: Matrícula - Responsável pela prototipação
 Nome do Integrante 4: Matrícula - responsavel pelo desenvolvimento backend
 Nome do Integrante 5: Matrícula - responsável pelo texte
-## Estrutura do Projeto
 
-```
-/
-├── README.md              # Documentação principal
-├── docs/                  # Documentação adicional
-│   └── architecture.md    # Descrição da arquitetura
-├── src/                   # Código-fonte do projeto
-├── tests/                 # Testes unitários
-└── postman/               # Coleção Postman exportada
-    └── collection.json    # Arquivo da coleção
-```
-
-## Pré-requisitos
-
-- Node.js (v14 ou superior)
-- Yarn
-
-## Instalação
-
-1. Clone o repositório:
-   ```
-   git clone <url-do-repositorio>
-   ```
-
-2. Instale as dependências:
-   ```
-   yarn install
-   ```
-
-3. Configure as variáveis de ambiente:
-   ```
-   cp .env.example .env
-   ```
-   E edite o arquivo `.env` conforme necessário.
-
-## Execução
-
-Para iniciar o servidor em modo de desenvolvimento:
-
-```
-yarn dev
-```
-
-Para compilar e executar em produção:
-
-```
-yarn build
-yarn start
-```
-
-## Endpoints da API
-
-### Informações de Pokémon
-
-- `GET /api/pokemon/:nameOrId` - Obtém informações detalhadas sobre um Pokémon específico
-- `GET /api/pokemon/random/pokemon` - Obtém um Pokémon aleatório
-
-### Traduções
-
-- `GET /api/pokemon/translate/:nameOrId` - Obtém um Pokémon com descrição traduzida
-  - Query params: `translator` (shakespeare ou yoda, padrão: shakespeare)
-- `GET /api/pokemon/random/translate` - Obtém um Pokémon aleatório com descrição traduzida
-  - Query params: `translator` (shakespeare ou yoda, padrão: shakespeare)
-
-### Pokémon Lendários
-
-- `GET /api/pokemon/legendary/pokemon` - Obtém Pokémon lendários com traduções no estilo Yoda
-  - Query params: `limit` (número de Pokémon, padrão: 5)
-
-### Comparações
-
-- `GET /api/pokemon/compare/type/:type` - Compara Pokémon de um tipo específico
-  - Query params: `limit` (número de Pokémon, padrão: 5)
-
-## Exemplos de Uso
-
-### Obter informações sobre o Pikachu
-
-```
-GET /api/pokemon/pikachu
-```
-
-### Obter descrição de Charizard traduzida para o estilo Shakespeare
-
-```
-GET /api/pokemon/translate/charizard?translator=shakespeare
-```
-
-### Obter 3 Pokémon lendários com descrições traduzidas para o estilo Yoda
-
-```
-GET /api/pokemon/legendary/pokemon?limit=3
-```
-
-### Comparar 10 Pokémon do tipo fogo
-
-```
-GET /api/pokemon/compare/type/fire?limit=10
-```
-
-## Testes
-
-Para executar os testes:
-
-```
-yarn test
-```
-
-## Documentação Adicional
-
-Para mais detalhes sobre a arquitetura do sistema, consulte [docs/architecture.md](docs/architecture.md).
-
-## Limitações Conhecidas
-
-- A API Fun Translations tem um limite de requisições para usuários gratuitos (5 por hora).
-- Algumas traduções podem não estar disponíveis devido a esse limite.
 
 ## Licença
 
