@@ -34,7 +34,8 @@ Para atingir os objetivos de eficiência, qualidade e custo, a construção do s
  - Mapeamento Objeto-Relacional (MOR / ORM): Será utilizado na camada de backend para atuar como uma camada de abstração para os dados persistentes. Um ORM mapeia os objetos do domínio da aplicação para as tabelas do banco de dados relacional, simplificando as operações de CRUD (Create, Read, Update, Delete) e garantindo a consistência dos dados.
 ## Diagrama de Arquitetura
 O diagrama a seguir representa a estrutura do sistema e o fluxo de interação entre os componentes. Ele ilustra a separação em camadas e como os dados fluem desde a fonte original (SEMACE) até o usuário final.
-### Aqui vai ter um diagrama.###
+ 
+ ![diagrama de arquiterura](<Diagrama de Arquitetura.png>)
 
 ## Fluxo de Dados:
  1. O Serviço de Coleta acessa o Site da SEMACE, extrai os dados do boletim e os insere no Banco de Dados.
