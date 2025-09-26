@@ -1,4 +1,4 @@
-# balneabilidade-fortaleza-api
+# Balneabilidade de Fortaleza - Api
 
  Este projeto visa desenvolver um sistema multi plataforma que centraliza e apresenta de forma acessível os dados de balneabilidade das praias de Fortaleza. Utilizando os boletins semanais da SEMACE, a solução permitirá que cidadãos e turistas consultem, de maneira simples e rápida, se um trecho de praia está próprio ou impróprio para banho. A plataforma pretende disponibilizar essas informações de forma visual, interativa e responsiva, contribuindo para decisões mais seguras e para a promoção da saúde pública.
 
@@ -78,12 +78,10 @@ A aplicação da Pirâmide de Testes garantirá maior qualidade no produto final
 ## Integrantes da Equipe e Seus Papéis
 
 Ayala Rodrigues Freire: 2323803 - Analista de Requisitos/UX Designer
-Daniel Alves Fabricio: 2326208 - Responsável pela documentação da API
-Nome do Integrante 3: Matrícula - Responsável pela prototipação
-Nome do Integrante 4: Matrícula - responsavel pelo desenvolvimento backend
-Nome do Integrante 5: Matrícula - responsável pelo texte
+Daniel Alves Fabricio: 2326208 - Analista de Arquitetura
+Manuela Rocha Trigueiro Asfor: 2316545 -Responsável pela prototipação
+Francisco Eduardo Nogueira Nobre - 2326181 Especificaçoes da Api
+Samara Lima Queiroz - 2325659 Diagrama Entidade relacionamento
 
 
-## Licença
 
-Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para mais detalhes.
