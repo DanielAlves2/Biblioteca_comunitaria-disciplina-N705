@@ -1,6 +1,6 @@
 # 📚 Sistema de Gerenciamento para Bibliotecas Comunitárias
 
-Plataforma para **catalogação de livros, controle de empréstimos e divulgação de eventos culturais** em bibliotecas comunitárias de bairros como **Mucuripe, Serviluz e Cais do Porto (Fortaleza/CE)**.  
+Plataforma para **catalogação de livros, controle de empréstimos e divulgação de eventos culturais** em bibliotecas (Fortaleza/CE)**.  
 
 ---
 
