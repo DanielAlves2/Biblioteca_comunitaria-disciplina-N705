@@ -7,38 +7,60 @@ Os Requisitos Funcionais (RF) descrevem o que o sistema "Deverá Fazer". Eles fo
 
 ## Functionality (Funcionalidade) do modelo FURPS+.
 
- - RF001 - Listagem de Praias: O sistema deve exibir uma lista de todas as praias de Fortaleza que são monitoradas pela SEMACE.
- - RF002 - Detalhamento de Praia: Ao selecionar uma praia, o sistema deve exibir todos os trechos monitorados correspondentes a ela, com seus respectivos status de balneabilidade.
- - RF003 - Busca: O sistema deve permitir que o usuário insira o nome de uma praia em um campo de busca para filtrar a lista.
- - RF004 - Indicador Visual de Status: Cada trecho de praia listado deve apresentar um indicador visual claro (ex: um selo colorido) que represente o status "Próprio" ou "Impróprio".
- - RF005 - Exibição de Data do Boletim: A interface principal deve exibir a data de publicação do último boletim que alimenta os dados atuais.
- - RF006 - Consulta de Histórico: O sistema deve permitir a visualização dos últimos 4 (quatro) resultados de balneabilidade para um trecho de praia selecionado.
+ - RF01 – Coleta de Dados da SEMACE
+O sistema deve obter os boletins semanais de balneabilidade publicados pela SEMACE em formato PDF.
+
+- RF02 – Extração de Dados
+O sistema deve processar automaticamente os boletins PDF e extrair informações sobre as praias (nome, trecho, status de balneabilidade: próprio/impróprio).
+
+- RF03 – Armazenamento em Banco de Dados
+O sistema deve armazenar as informações extraídas em um banco de dados PostgreSQL de forma estruturada.
+
+- RF04 – Consulta por Praia
+O usuário deve poder consultar a situação de uma praia específica.
+
+- RF05 – Consulta por Zona/Região
+O sistema deve permitir que o usuário filtre as praias por zona (exemplo: Leste, Oeste, Centro).
+
+- RF06 – Visualização de Status
+O sistema deve exibir de forma clara se a praia está própria ou imprópria para banho, utilizando ícones ou cores (verde/vermelho).
+
+- RF07 – Histórico de Balneabilidade
+O sistema deve permitir que o usuário consulte o histórico de balneabilidade de uma praia.
+
+- RF08 – Interface Responsiva
+O sistema deve ser acessível em dispositivos móveis, tablets e desktops, ajustando automaticamente o layout.
+
+- RF09 – Pesquisa Rápida
+O sistema deve oferecer um campo de pesquisa por nome da praia.
+
+- RF10 – API RESTful
+O sistema deve disponibilizar uma API para fornecer os dados de balneabilidade em formato JSON.
 
 ## Requisitos Não-Funcionais (RNF)
 
 Os Requisitos Não-Funcionais (RNF) define de que maneira o sistema deve operar, focando nos atributos de qualidade. Para uma especificação completa e organizada, vamos utilizar a classificação FURPS+.
 
-## U - Usability (Usabilidade)
+- RNF01 – Usabilidade
+O sistema deve ter uma interface simples, intuitiva e amigável para o usuário final.
 
- - RNF001: A interface deve ser responsiva, adaptando-se a telas de desktops, tablets e smartphones.
- - RNF002: O sistema deve ser intuitivo, permitindo que um usuário realize uma consulta em no máximo 3 cliques após acessar a página inicial.
- - RNF003: O sistema deve seguir padrões de acessibilidade para garantir o uso por pessoas com deficiência visual (ex: contraste de cores e suporte a leitores de tela).
+- RNF02 – Desempenho
+O sistema deve carregar as consultas de praias em menos de 3 segundos em condições normais.
 
-## R - Reliability (Confiabilidade)
+- RNF03 – Confiabilidade
+O sistema deve atualizar os dados semanalmente de acordo com os boletins oficiais da SEMACE.
 
- - RNF004: O sistema deve ter uma disponibilidade de no mínimo 99.5%.
- - RNF005: Em caso de falha no serviço automatizado de coleta de dados, o sistema deve manter as informações do último boletim válido e informar ao usuário a data correspondente, garantindo a integridade dos dados.
+- RNF04 – Manutenibilidade
+O código deve ser modularizado e organizado em pastas (frontend, backend, database) para facilitar manutenção futura.
 
-## P - Performance (Desempenho)
+- RNF06 – Segurança
+A API deve estar protegida contra acessos indevidos e seguir boas práticas de autenticação (quando houver área restrita).
 
- - RNF006: O tempo de resposta para a listagem inicial das praias não deve exceder 10 segundos.
- - RNF007: O sistema deve suportar 50 usuários realizando consultas simultâneas sem degradação perceptível no tempo de resposta.
+- RNF07 – Portabilidade
+O sistema deve rodar em navegadores modernos (Chrome, Firefox, Edge, Safari) e em dispositivos Android/iOS.
 
-## S - Supportability (Suportabilidade)
-
- - RNF008: A arquitetura do sistema deve ser modular, permitindo que as equipes de frontend e backend trabalhem de forma independente.
- - RNF009: O processo de atualização dos dados de balneabilidade deve ser automatizado, minimizando a necessidade de intervenção manual.
- - RNF010: O sistema deve ser compatível com os navegadores Google Chrome, Mozilla Firefox e Microsoft Edge em suas duas últimas versões estáveis.
+- RNF08 – Disponibilidade
+O sistema deve estar disponível 24/7, salvo períodos programados de manutenção.
 
 ## + (Constraints - Restrições)
 
