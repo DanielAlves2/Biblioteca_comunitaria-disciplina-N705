@@ -1,37 +1,33 @@
-/api/usuarios
+# Especificação da API - Biblioteca Comunitária
 
-POST /register
+A API do sistema de gerenciamento de bibliotecas comunitárias será **RESTful**, com comunicação via **JSON**.  
+Ela será consumida tanto pela aplicação **web (React)** quanto pela aplicação **mobile responsiva**.  
 
-POST /login
+- **Base URL (exemplo dev):** `http://localhost:3000/api`
+- **Autenticação:** JWT (JSON Web Token)
+- **Formato de dados:** JSON
+- **Códigos de resposta padrão:**
+  - 200: Sucesso
+  - 201: Criado com sucesso
+  - 400: Requisição inválida
+  - 401: Não autorizado
+  - 404: Não encontrado
+  - 500: Erro interno do servidor
 
-GET /{id}
+---
 
-PUT /{id}
+## 2. Endpoints
 
-DELETE /{id}
-
-/api/livros
-
-GET / (listar)
-
-POST / (cadastrar)
-
-PUT /{id}
-
-DELETE /{id}
-
-/api/emprestimos
-
-POST / (registrar empréstimo)
-
-PUT /{id} (devolução)
-
-GET /usuario/{id}
-
-/api/eventos
-
-GET / (listar eventos)
-
-POST / (criar evento)
-
-POST /{id}/participar (inscrição em evento)
+### 2.1 Autenticação e Usuários
+**POST /usuarios/register**  
+- Cria um novo usuário.  
+```json
+{
+  "nome": "João Silva",
+  "cpf": "123.456.789-00",
+  "telefone": "85999999999",
+  "endereco": "Rua das Flores, 100",
+  "email": "joao@email.com",
+  "senha": "123456",
+  "perfil": "leitor"
+}
