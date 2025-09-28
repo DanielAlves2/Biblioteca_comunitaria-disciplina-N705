@@ -91,7 +91,7 @@ CREATE TABLE biblioteca.participacao_evento (
     UNIQUE (id_usuario, id_evento)
 );
 
-![diagrama](https://github.com/user-attachments/assets/bc1cd87c-31b5-4ce4-bf65-895f83317b73)
+
 
 
  
