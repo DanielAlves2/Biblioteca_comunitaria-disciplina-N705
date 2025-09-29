@@ -21,6 +21,8 @@ O banco de dados será implementado em **PostgreSQL**.
 - **Empréstimo** (controle de retirada e devolução de livros)  
 - **Evento** (eventos culturais promovidos pela biblioteca)  
 - **ParticipaçãoEvento** (relacionamento N:N entre usuários e eventos)  
+![alt text](<Diagrama ER.jpeg>)
+
 
 ---
 
