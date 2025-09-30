@@ -6,7 +6,7 @@ Esse sistema permite gerenciar de forma digital os recursos de uma biblioteca co
 
 ## Problema abordado e justificativa
 
-Muitas bibliotecas comunitárias enfrentam dificuldades para gerenciar livros, empréstimos e eventos culturais de forma eficiente.           O problema, portanto, é a ineficiência na gestão de recursos e informações em bibliotecas comunitárias, afetando a experiência de       leitores e a organização interna. 
+Muitas bibliotecas comunitárias enfrentam dificuldades para gerenciar livros, empréstimos e eventos culturais de forma eficiente. O problema, portanto, é a ineficiência na gestão de recursos e informações em bibliotecas comunitárias, afetando a experiência de       leitores e a organização interna. 
 A escolha do tema se justifica pela importância da leitura e cultura na formação educacional e social, especialmente em bairros com menor acesso a recursos educativos.
 * O sistema digital de gerenciamento permite automatizar processos, tornando o registro de empréstimos e livros mais confiável.
 * Facilita o acesso dos usuários a informações sobre livros disponíveis e eventos.
@@ -24,7 +24,7 @@ Este projeto busca resolver esse problema, gerando um impacto social positivo al
 
 * Desenvolver uma solução de software para otimizar a gestão de bibliotecas comunitárias, promovendo a leitura e a participação cultural.
 
-### Específicos:
+### Específicações:
 
 * Automatizar o cadastro e a consulta de livros.
 
@@ -56,14 +56,14 @@ O detalhamento completo dos requisitos, incluindo regras de negócio e perfis de
 
  ## Definição da Arquitetura
 
-* Backend baseado em API RESTful para servir os dados de usuários, livros, empréstimos e eventos.
+* Backend baseado em RESTful para servir os dados de usuários, livros, empréstimos e eventos.
 * Frontend web responsivo, com design de interface para dispositivos móveis.
 * Banco de dados relacional (PostgreSQL) para persistência dos dados e controle de integridade.
 
- ## Modelagem de Dados e APIs
+ ## Modelagem de Dados 
 
 * Criação de diagrama ER representando usuários, livros, empréstimos e eventos culturais.
-* Especificação dos endpoints da API, incluindo métodos, parâmetros de requisição e formatos de resposta (JSON).
+* Especificação dos endpoints, incluindo métodos, parâmetros de requisição e formatos de resposta (JSON).
 
  ## Prototipação de Interfaces
 
@@ -77,7 +77,6 @@ O detalhamento completo dos requisitos, incluindo regras de negócio e perfis de
 ### Camadas do Sistema
  1. Frontend (Interface do Usuário)
   * Desenvolvido em React, com interface web responsiva e compatível com dispositivos móveis.
-  * Responsável por apresentar dados, interagir com o usuário e consumir as APIs do backend via Axios.
   * Fornece funcionalidades como: busca de livros, cadastro de usuários, registro de empréstimos, consulta a eventos e relatórios.
 
  2.  Backend (Camada de Aplicação)
