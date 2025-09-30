@@ -19,7 +19,19 @@ Tornar as cidades e os assentamentos humanos inclusivos, seguros, resilientes e 
 
 ## Objetivo do Sistema
 
-O sistema busca promover a leitura, melhorar a organização interna e fortalecer a participação da comunidade, tornando a biblioteca mais eficiente e acessível.
+### Geral: 
+
+* Desenvolver uma solução de software para otimizar a gestão de bibliotecas comunitárias, promovendo a leitura e a participação cultural.
+
+### Específicos:
+
+* Automatizar o cadastro e a consulta de livros.
+
+* Digitalizar o processo de empréstimos e devoluções.
+
+* Facilitar a gestão de usuários (leitores e administradores).
+
+* Gerar relatórios básicos para apoiar a tomada de decisão.
 
 
 ## Escopo do Projeto 
