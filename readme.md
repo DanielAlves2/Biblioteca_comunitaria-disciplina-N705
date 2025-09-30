@@ -1,7 +1,8 @@
-# Sistema de  Biblioteca comunitária 
+# Sistema de  Biblioteca Comunitária 
 
-Esse sistema permite gerenciar de forma digital os recursos de uma biblioteca comunitária. Ela oferece funcionalidades para cadastrar, consultar, atualizar e remover livros, bem como gerenciar usuários, empréstimos e devoluções. O objetivo é facilitar a organização 
-do acervo, acompanhar o histórico de empréstimos e disponibilizar informações de forma rápida e acessível para a comunidade.
+O projeto consiste em uma plataforma desenvolvida para auxiliar bibliotecas comunitárias no cadastro e organização de livros, controle de empréstimos e devoluções, registro de usuários e divulgação de eventos.
+
+Esse sistema permite gerenciar de forma digital os recursos de uma biblioteca comunitária, oferecendo funcionalidades para cadastrar, consultar, atualizar e remover livros, bem como gerenciar usuários, empréstimos e devoluções. O objetivo é facilitar a organização do acervo, acompanhar o histórico de empréstimos e disponibilizar informações de forma rápida e acessível para a comunidade.
 
 ## Problema abordado e justificativa
 
