@@ -11,11 +11,11 @@ A escolha do tema se justifica pela importância da leitura e cultura na formaç
 * Facilita o acesso dos usuários a informações sobre livros disponíveis e eventos.
 * Contribui para inclusão digital e incentivo à leitura, fortalecendo o papel da biblioteca na comunidade.
 
-Este projeto busca resolver esse problema, gerando um impacto social positivo alinhado ao
-ODS 4 – Educação de Qualidade
-Garantir educação inclusiva, equitativa e de qualidade, e promover oportunidades de aprendizagem ao longo da vida para todos.
-ODS 11 – Cidades e Comunidades Sustentáveis
-Tornar as cidades e os assentamentos humanos inclusivos, seguros, resilientes e sustentáveis.
+Este projeto busca resolver esse problema, gerando um impacto social positivo alinhado ao:
+
+* ODS 4 – Educação de Qualidade: Garantir educação inclusiva, equitativa e de qualidade, e promover oportunidades de aprendizagem ao longo da vida para todos.
+
+* ODS 11 – Cidades e Comunidades Sustentáveis: Tornar as cidades e os assentamentos humanos inclusivos, seguros, resilientes e sustentáveis.
 
 ## Objetivo do Sistema
 
@@ -36,8 +36,14 @@ Tornar as cidades e os assentamentos humanos inclusivos, seguros, resilientes e 
 
 ## Escopo do Projeto 
 
-1. Visão Geral
+### Visão Geral
 O projeto visa desenvolver um sistema digital de gerenciamento de bibliotecas comunitárias, permitindo que bibliotecários e usuários tenham acesso facilitado a livros, empréstimos, eventos culturais e relatórios de uso. O sistema será acessível via web e dispositivos móveis.
+
+O escopo do sistema foi definido a partir do processo de Engenharia de Requisitos, que incluiu as etapas de elicitação, análise, especificação e validação para garantir que as necessidades dos stakeholders fossem compreendidas e traduzidas em funcionalidades. 
+
+Os requisitos foram classificados em Funcionais (RF), que descrevem o que o sistema deve fazer, e Não Funcionais (RNF), que definem como o sistema deve operar, abordando atributos de qualidade como desempenho, usabilidade e segurança.
+
+O detalhamento completo dos requisitos, incluindo regras de negócio e perfis de usuário, encontra-se no documento `docs/requisitos/requerimentos.md.`
 
  ## Levantamento e Organização das Funcionalidades
 
@@ -62,19 +68,6 @@ O projeto visa desenvolver um sistema digital de gerenciamento de bibliotecas co
 
 * Desenvolvimento de protótipos de interface para web e mobile.
 * Validação dos fluxos de usuário com base no Design Centrado no Usuário (UCD).
-
-## Planejamento da Implementação (Etapa 2)
-
-* Cronograma detalhado para o desenvolvimento do backend, frontend, integração e testes.
-* Estratégia de testes: unitários, de integração, funcionais e de carga.
-
-## Fora de Escopo nesta Etapa
-
-* Implementação de código.
-* Hospedagem em produção.
-* Integração contínua e deployment automatizado.
-
-Esses itens serão tratados na etapa seguinte do projeto, quando o desenvolvimento e testes práticos forem iniciados.
 
  ## Visão Geral da Arquitetura
 
