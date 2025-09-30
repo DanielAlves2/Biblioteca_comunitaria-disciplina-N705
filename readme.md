@@ -1,6 +1,6 @@
-# API de Biblioteca comunitária 
+# Sistema de  Biblioteca comunitária 
 
-Essa API permite gerenciar de forma digital os recursos de uma biblioteca comunitária. Ela oferece funcionalidades para cadastrar, consultar, atualizar e remover livros, bem como gerenciar usuários, empréstimos e devoluções. O objetivo é facilitar a organização 
+Esse sistema permite gerenciar de forma digital os recursos de uma biblioteca comunitária. Ela oferece funcionalidades para cadastrar, consultar, atualizar e remover livros, bem como gerenciar usuários, empréstimos e devoluções. O objetivo é facilitar a organização 
 do acervo, acompanhar o histórico de empréstimos e disponibilizar informações de forma rápida e acessível para a comunidade.
 
 ## Problema abordado e justificativa
