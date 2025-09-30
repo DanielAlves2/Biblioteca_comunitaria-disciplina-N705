@@ -88,9 +88,30 @@ Esses itens serão tratados na etapa seguinte do projeto, quando o desenvolvimen
   * Armazena dados de usuários, livros, empréstimos, eventos culturais e participação.
   * Permite consultas rápidas, integridade referencial e relatórios confiáveis.
 
-## Fluxo de Comunicação
+### Diagrama de Arquitetura
 
-[Usuário/Cliente] ⇄ [Frontend React] ⇄ [API REST Node.js/Express] ⇄ [Banco PostgreSQL]
+```mermaid
+graph TD
+    subgraph "Cliente"
+        A[Usuário]
+    end
+
+    subgraph "Camada de Apresentação"
+        B["Aplicação React <br>(Web/Mobile)"]
+    end
+
+    subgraph "Camada de Aplicação"
+        C["API REST <br>Node.js/Express"]
+    end
+
+    subgraph "Camada de Persistência"
+        D[(Banco de Dados PostgreSQL)]
+    end
+
+    A -- Interage com --> B
+    B -- "Requisições HTTP/JSON" --> C
+    C -- "Consulta e persiste dados (via ORM)" --> D
+```
 
 ## Tecnologias Propostas
 
