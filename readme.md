@@ -94,10 +94,10 @@ Esses itens serão tratados na etapa seguinte do projeto, quando o desenvolvimen
 
 ## Tecnologias Propostas
 
-Frontend: React, Axios, TailwindCSS 
-Backend: Node.js, Express.js, JWT (autenticação) 
-Banco de Dados: PostgreSQL
-Prototipação: Figma
+* Frontend: React, Axios, TailwindCSS 
+* Backend: Node.js, Express.js, JWT (autenticação) 
+* Banco de Dados: PostgreSQL
+* Prototipação: Figma
 
 ## Cronograma para Etapa 2 (N708):
 
