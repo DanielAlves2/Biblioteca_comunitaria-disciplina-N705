@@ -68,8 +68,8 @@ Esses itens serão tratados na etapa seguinte do projeto, quando o desenvolvimen
 
  O sistema de gerenciamento de bibliotecas comunitárias será baseado em uma arquitetura cliente-servidor em três camadas, garantindo escalabilidade, manutenção facilitada e segurança dos dados.
 
-1. Camadas do Sistema
- 1.2 Frontend (Interface do Usuário)
+### Camadas do Sistema
+ 1. Frontend (Interface do Usuário)
   * Desenvolvido em React, com interface web responsiva e compatível com dispositivos móveis.
   * Responsável por apresentar dados, interagir com o usuário e consumir as APIs do backend via Axios.
   * Fornece funcionalidades como: busca de livros, cadastro de usuários, registro de empréstimos, consulta a eventos e relatórios.
@@ -82,7 +82,7 @@ Esses itens serão tratados na etapa seguinte do projeto, quando o desenvolvimen
        * Gerenciar autenticação e autorização via JWT.
        * Garantir integridade dos dados e comunicação segura com o banco de dados.
 
-3.Banco de Dados (Camada de Persistência)
+3. Banco de Dados (Camada de Persistência)
 
   * Implementado em PostgreSQL com uso de ORM (Sequelize ou Prisma).
   * Armazena dados de usuários, livros, empréstimos, eventos culturais e participação.
