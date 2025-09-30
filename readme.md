@@ -110,7 +110,11 @@ No terceiro e último mês, as atividades se concentrarão na integração, test
 ## Integrantes da Equipe
 
 Daniel Alves Fabrício (Matrícula: 2326208) - Gerente de Projeto e Arquiteto de Software
+
 Francisco Eduardo Nogueira Nobre (Matrícula: 2326181) - Desenvolvedor Backend
+
 Ayala Rodrigues Freire (Matrícula: 2323803) - Desenvolvedora Backend
+
 Manuela Rocha Trigueiro Asfor (Matrícula: 2316545) - Desenvolvedora Frontend e UI/UX Designer
+
 Samara Lima Queiroz (Matrícula: 2325659) - Desenvolvedora Frontend e Analista de QA
